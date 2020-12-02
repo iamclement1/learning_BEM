@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEM NAV</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="menu cf">
+      <a href="#" class="menu__trigger js-trigger">
+        <i class="ion-navicon-round"></i>
+      </a>
+
+      <ul class="menu__row">
+        <li class="menu__list">
+          <a href="#" class="menu_link">Home</a>
+        </li>
+
+        <li class="menu__list">
+            <a href="#" class="menu__list">About</a>
+        </li>
+
+        <li class="menu__list">
+            <a href="#" class="menu__list">Contact</a>
+        </li>
+      </ul>
+
+      <div class="menu__dropdown cf js-menu">
+          <div class="menu__col">
+              <h2>First Random Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque magni minima eius! Asperiores numquam impedit inventore quis exercitationem cum quae, veritatis eos a nam tempora magnam repudiandae et ex iure aperiam quo? Quaerat, quod blanditiis!</p>
+          </div>
+
+          <div class="menu__col">
+              <h2>Secon Random Title</h2>
+              <p><p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum eius maxime et nesciunt facilis sapiente aspernatur nulla culpa optio, quidem voluptates hic laborum necessitatibus sunt, debitis tempore ab voluptas inventore laboriosam quam! Quos blanditiis numquam dignissimos nesciunt labore maiores dolorem!
+              </p></p>
+          </div>
+
+          <div class="menu__col">
+              <h2>The thrid and last random title</h2>
+              <p><p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium hic officiis voluptatem animi ab officia rerum corporis vitae, eligendi sunt enim repellat commodi, est accusamus accusantium minus pariatur praesentium cum? Nisi, iure? Dignissimos deleniti ut cumque quibusdam impedit vitae, ad ipsum, dolore, quo error laboriosam.
+              </p></p>
+          </div>
+      </div>
+    </div>
+
+     <script id="rendered-js" >
+$('.js-trigger').on('click', function () {
+  $(this).toggleClass('menu__trigger--active');
+  $('.js-menu').slideToggle('fast');
+});
+//# sourceURL=pen.js
+    </script>
+
+  </body>
+</html>
