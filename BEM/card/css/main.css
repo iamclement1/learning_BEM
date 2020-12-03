@@ -20,6 +20,9 @@ body {
   background: white;
   box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.9);
   text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .card-image {
@@ -89,4 +92,9 @@ body {
 
 .card-stats .value sup {
   font-size: 12px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
 }
